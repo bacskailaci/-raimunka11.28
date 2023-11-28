@@ -1,0 +1,32 @@
+#s1{
+    grid-area: s1;
+}
+#s2{
+    grid-area: s2;
+    text-align: right;
+}
+#s3{
+    grid-area: s3;
+}
+#s4{
+    grid-area: s4;
+    color: red;
+}
+#k{
+    grid-area: k;
+}
+#fotartalom{
+    display: grid;
+    grid-template-areas: 
+    "s1 s4 s4"
+    "s1 k s2 "
+    "s3 s3 s3";
+
+}
+#fotartalom *{border: 1px black solid;
+ padding: 5px;
+ padding-bottom: 0px;
+}
+#s1, #s3{
+    text-align: center;
+}
